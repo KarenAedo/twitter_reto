@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<!-- Enlazar tipografía-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- Enlazar archivo css -->
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+	<!-- Aquí va el Encabezado -->
+	<header>
+		<h1>TWITTER</h1>
+	</header>
+
+	<!-- Aquí va el cuerpo -->
+	<section>
+		<div class="presentacion">
+			<!-- Presentacion --> 
+			<h3>Reto de Código</h3>
+			<p>Hola <br>
+			soy front-end developer jr.</p>
+			<br>
+		</div>
+	
+		<!-- Formulario texto -->
+		<div class="ingresoTweets">
+			<!-- Etiqueta formulario -->
+			
+			<!-- textarea en lugar de input, más líneas, más espacio -->
+			<textarea id="ingresoElTexto" cols="38" rows="10" placeholder="¿Qué estás pensando?"></textarea>
+			<button type="button" id="botonEnviar" onclick="add()">Twittear</button>
+			<span id="contador"></span>
+	
+		</div>
+	</section>
+	
+	<!-- línea de tiempo oculta -->
+	<div id="lineaTiempo"></div>
+	
+
+	<!-- Enlazar mi archivo js -->
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
